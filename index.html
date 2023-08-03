@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website with Login & Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="#" class="nav_link">Registration Form</a>
+          </li>
+        </ul>
+        <button class="button" id="form-open">Register Now</button>
+      </nav>
+    </header>
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        
+        <div class="form login_form">
+          <form id="myForm">
+            <h2>Registration</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="a" placeholder="Enter your name" required />
+              <i class="uil uil-head-side email"></i>
+            </div>
+            <div class="input_box">
+              <input type="a" placeholder="Enter your DOB" required />
+              <i class="uil uil-calendar-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="a" placeholder="Enter your Gender" required />
+              <i class="uil uil-align uil-align-justify email"></i>
+            </div>
+            <button class="button" id="register-now-btn">Register Now</button>
+          </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
